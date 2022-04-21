@@ -1,0 +1,53 @@
+body {
+    margin: 0;
+     
+    background: url("img/back.png.jpg");
+    background-color: rosybrown;
+    font-family: Tahoma;
+    line-height: 1.5;
+    font-size: 15px;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+}
+
+/* Container */
+.container {
+    width: 100%;
+    max-width: 1200px; 
+    margin: 0 auto;
+}
+
+/* Intro */
+.intro {
+    width: 100%;
+    height: 100vh;
+    
+    background: url(./img/glavna.jpg.jpg) center no-repeat;
+    -webkit-background-size: cover;
+    background-size: cover;
+}
+
+.card {
+    width: 100px;
+    max-width: 300px;
+    margin: 40px;
+}
+
+/* Header */
+.header {
+    width: 100%;
+    
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+}
